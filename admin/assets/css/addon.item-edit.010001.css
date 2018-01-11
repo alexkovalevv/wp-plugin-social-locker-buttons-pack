@@ -1,0 +1,250 @@
+/**
+* Default options
+*/
+#side-sortables .factory-bootstrap-000 .control-label {
+    max-width: 100%;
+    margin-bottom: 8px;
+}
+
+#side-sortables .factory-bootstrap-000 .factory-buttons-way {
+    float: right;
+    position: relative;
+    top: 3px;
+    left: 5px;
+    border: 3px solid #f9f9f9;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+#side-sortables .factory-bootstrap-000 input {
+    float: right;
+    position: relative;
+    top: 3px;
+    margin-bottom: 8px;
+}
+
+/**
+ * Social Tabs
+ */
+.factory-bootstrap-000 .factory-align-vertical .factory-bodies {
+    min-height: 580px !important;
+    margin-left: 170px !important;
+}
+
+.factory-flat #OPanda_SocialOptionsMetaBox {
+    background: #f6f6f6;
+}
+
+.factory-flat #OPanda_SocialOptionsMetaBox .nav-tabs li {
+    background-color: transparent;
+}
+
+.onp-sl-metabox-hint {
+    margin-bottom: 15px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .nav-tabs {
+    width: 170px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .nav-tabs a {
+    height: 42px;
+    -moz-transition: none;
+    transition: none;
+    background: none !important;
+}
+
+.factory-volumetric .factory-bootstrap-000 .factory-align-vertical .nav-tabs a {
+    height: 22px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .nav-tabs a:before {
+    position: absolute;
+    content: '';
+    right: 10px;
+    top: 7px;
+    background-image: url("../img/social-buttons-for-admin-ru_RU.png");
+    background-repeat: no-repeat;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-tab-item-header-google-youtube a {
+    background: none !important;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-tab-item-header-google-youtube a:before {
+    position: absolute;
+    content: '';
+    right: 10px;
+    top: 5px;
+    background-image: url("../img/google-youtube-button.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: 0 0;
+    width: 87px;
+    height: 30px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-tab-item-header-facebook-like a:before {
+    background-position: 0 -36px;
+    width: 82px;
+    height: 26px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-tab-item-header-facebook-subscribe a:before {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHEAAAAcCAIAAADZdscDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuNWWFMmUAAAQRSURBVGhD7Zrva1JRGMf3d0X9BfeFe6HSMoYvZtCbJliQLCQYvhosmURCSCVFYz9gGhmxBiZtC0QQQwwmOPzRMM3NbWi31ux7fdzx7Kh3d3NBrXv5vjj3Oc997rkfn/Oc49Wh5tHx81ezcaDrjAI9dihMDw+bP7qAfj9QjLr6CXwEYjCCZJspTvi+g8N2n36oH6AEVjw6uZWtQ/yU39mr5wtfcvmCLu3KF4rbu/uMIXgOsRMArTdkXWcTj7XDFBkq+OnSLmQrI9lmirqANBb8dGkX6LHa2maKcqszHUSgB4YdptgW4OjH1PP0/ZVrvktXH/UUuuAgXPIfCvTAkDZYClPspVSYqgAlwYH3jzVkyeCTDGZeMa+Z97l4Iqa0Kz2ZqUCQdO/BG//cx5lnUTrl/YkpgyicXlQNyvT+zNvS128ksvD+6kxXt2STwy8ZLPYRy2bUS0ZPHD6dpF5ywLmwlIPRydvrcR8ZN0NOXGWbzZIR7aV0dfjmNE4RtpwMUFj3SkEyjsM4MWopp4PdEwij4gPy6g6YqGDkAYycrvXg1o0E8x+U6fNgDDSlG0+YhfdXYRqrydKob3XaWm9Up9arFoN1p0VkYqVKQyRnnik9rT1UwGPwTJe3ZMk4ScZIBe3plH8cniZvwm0012tr8xnZbRyvVyJKzBGKWRLGA/Vk2jOgPVQyHX2Ekjdxbkyv3561u0PvPqTBFA3ocqva8v4qTN3RPWVYST/aG7CPLSy7YK8C2WmZmnwpyhcYEdaKRmaB7siU2pIfh2ImB9LNQjFh1MK0Z0B88H+E6ctXcTbroU+fc2Tn/VWYAo0dQ8mF0d6E3RGmR7XOZl+MoZHVyNTjdZoMTrdXmcgw8mGZHibhaZuftKUyMckRVGdKHw+Emb6TXOgZEAO2uMLnP/eFPLXenSM776/CtGeelhtVyRWhhNXIFG34eOJtIx+WCYnshrG2RjdSZ0p3SaA0jQXg6Y4WugOWwdSbsKMO5MLnmackylbewvurMFXq6YhYT1+jMhpc9FQamVpaD0wrG4xU/mJem1JGFrM2GDNB22JWmb/pgCdeRcJqYZpCV4tppFLqDkiJv7GoFNm/iCm0muus+8V1P/UCjSCGryfTZZcFCw5jCgd+mUZYWLBMD98KDBvMUw6ryeWjdQb2nkzpptAd7BBaq7wQsNiQh10RFmRQpt17foGpsOc/legJiUs/yz8hkelpv5vyTNE1yHfTC8a0890U0t+hDCjQO/YOBdLf9Q0o0BPf9UH5QlHw06VdoMdIdphu7+4Lfrq0q1rbYySP/cYHrOCNNNalXSDGA1V+42M7ACbUBZRb/TjxACVWQ0nt36KpDyd8H4RtAVjr6ifaNvECQ8rFzn974Cc46dKuzn97ms3f/Rr/fzyyq/MAAAAASUVORK5CYII=') no-repeat;
+    /*background-position: 0 -36px;*/
+    width: 110px;
+    height: 26px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-tab-item-header-facebook-share a:before {
+    background-position: 0 -106px;
+    width: 95px;
+    height: 24px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-tab-item-header-twitter-tweet a:before {
+    background-position: 0 -536px;
+    width: 80px;
+    height: 26px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-tab-item-header-twitter-follow a:before {
+    background-position: 0 -464px;
+    width: 118px;
+    height: 26px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-tab-item-header-google-plus a:before {
+    background-position: 0 -176px;
+    width: 38px;
+    height: 26px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-tab-item-header-google-share a:before {
+    background-position: 0 -248px;
+    width: 94px;
+    height: 26px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-tab-item-header-linkedin-share a:before {
+    background-position: 0 -320px;
+    width: 101px;
+    height: 26px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-tab-item-header-vk-like a:before {
+    background-position: 0 -608px;
+    width: 52px;
+    height: 26px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-tab-item-header-vk-share a:before {
+    background-position: 0 -680px;
+    width: 107px;
+    height: 26px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-tab-item-header-vk-subscribe a:before {
+    background-position: 0 -752px;
+    width: 110px;
+    height: 24px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-tab-item-header-vk-notify a:before {
+    background-position: 0 -863px;
+    width: 115px;
+    height: 24px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-tab-item-header-ok-share a:before {
+    background-position: 0 -392px;
+    width: 90px;
+    height: 27px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-tab-item-header-mail-share a:before {
+    background-position: 0 -788px;
+    width: 90px;
+    height: 27px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-disabled.factory-tab-item-header-facebook-like a:before {
+    background-position: 0 0;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-disabled.factory-tab-item-header-facebook-subscribe a:before {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHEAAAAcCAIAAADZdscDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuNWWFMmUAAAO1SURBVGhD7ZpZS+RAFEb92eM2LiguIAquLyK4oS/uICioqCCooC+K4oKijCtqqwOj9sOc1FedienY0+n0wIxT50GSW7dvqk4qlXTsknSGl5eXH45CwZ71mE57Tt/e3rKFEnHkxprKQAST1mmo+fX1VW2O3GAJV9aaAZPES4JCHx8fLy4uvjnigLFUKmUNGq0ldtMI/e4olKDWX07xbdsd8cGe9eg7ZV1gGtt2R3yw56+t1inLrXOaBOzhUDI9p7pbfeR0enq6qqrq6wfQRIJN/Y/BHg51w/+90xxCBQk21XB7e0vwy3smJydt8yclnlOJCzE8PDw/Pz8zM6Ndm2qQU19iaPezktTp6OgopoQiNtWg4EdOz87O2tramLn19fXb29sKbm5uajqL3t7ep6enw8PD8vJyGzIcHBwouLa2xqcmJiYUZHt3d7epqYldyioCS0tLFRUVBJubm4+Pj9UTr1AGehUsGCS74OXlpXouGhoagk+fSZ3SV/rX2Nho9/N2enV1VVdXNz4+/vz8zDAY8P7+PvHFxUV1UclBpxrt7Owswwg6PT09JVPB8/Nztufm5sjs7++n1N3d3d7eHlJubm6oWVNTQ00OGuoPRDqNLEgfysrK5Levr69oTtvb2ym3tbVFz9gArbY21RDqdHB3dXWVbh0dHbF9f3/PWRkaGmKodDeu08HBQW+2mCBlOT1cAd7xAvDMuLCw0NraSppqEszHaWRBTvwfcbq8vEyffLigFLepBuJEIp2iprq6Wgd6eHjgUtJQx8bGOjs72VDyb52OjIxUVlbyV8FgWR9OfGlpKeeMTvoHIh7qngp6J8fAlc4pjyxIh3t6emxeEa/90Dzt6upS3KYacjiNnKf0jDqasHk6ZZuc9fV1BYNlfZjIrDNcszpQbqc6yvX1NabIXFlZyS7IxwcGBmpraxFVzHkqNFvtjsGmGnI4ZT1laQutpycnJ/6o8nQKDFh3NoJa/nhMpqweRbhsp6amqE/xjY0NJmw+TjkBcsrHswtq4qObzL/IKXBv8e/7Ozs7amU3hK8v0qkmte+UhOBtmrJEuE23tLRgobu7u6OjAwUoIx7p1DukgRkdWTCVSnEx+UWSOs1+5g85DT3zx0J1NAyRHfkniOc0+7tp0ClNSb6bflqn4N6hJAR7796hgHvXlxDshd/1gXsnnYSId9LArc22O+LDNwLrEadaVgVa8c00duQPxoJC8en+F104WPLXUKEnKPebicKxpjIQ0Vx0v+0pDtizHtPpnwXXWKUuREK+AAAAAElFTkSuQmCC') no-repeat;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-disabled.factory-tab-item-header-facebook-share a:before {
+    background-position: 0 -72px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-disabled.factory-tab-item-header-twitter-tweet a:before {
+    background-position: 0 -500px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-disabled.factory-tab-item-header-twitter-follow a:before {
+    background-position: 0 -428px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-disabled.factory-tab-item-header-google-plus a:before {
+    background-position: 0 -140px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-disabled.factory-tab-item-header-google-share a:before {
+    background-position: 0 -212px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-disabled.factory-tab-item-header-google-youtube a:before {
+    background-position: 0 -40px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-disabled.factory-tab-item-header-linkedin-share a:before {
+    background-position: 0 -284px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-disabled.factory-tab-item-header-vk-like a:before {
+    background-position: 0 -572px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-disabled.factory-tab-item-header-vk-share a:before {
+    background-position: 0 -644px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-disabled.factory-tab-item-header-vk-subscribe a:before {
+    background-position: 0 -716px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-disabled.factory-tab-item-header-vk-notify a:before {
+    background-position: 0 -903px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-disabled.factory-tab-item-header-ok-share a:before {
+    background-position: 0 -356px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .factory-disabled.factory-tab-item-header-mail-share a:before {
+    background-position: 0 -822px;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .nav-tabs li a {
+    cursor: pointer;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .nav-tabs {
+    background-color: transparent;
+}
+
+.factory-bootstrap-000 .factory-align-vertical .pi-tab-hint {
+    padding-left: 4px;
+}
+
+#vk-like .alert,
+#vk-subscribe .alert,
+#vk-share .alert,
+#google-youtube .alert {
+    position: relative;
+    top: -15px;
+    margin-left: 5px;
+}
