@@ -1,11 +1,9 @@
 <?php
 	/**
-	 * Plugin Name: [Sociallocker Addon] Buttons pack
-	 * Plugin URI: https://profiles.wordpress.org/webcraftic#content-plugins
+	 * Plugin Name: [Sociallocker Addon] Buttons pack	 
 	 * Description: Expands the set of social buttons for Social locker. The set includes social networks: Vkontakte, Odnoklassniki, Moy mir, Instagram, Pinterest, Draugiem, Livejournal.
-	 * Author: Webсraftic <alex.kovalevv@gmail.com>
-	 * Version: 1.0.1
-	 * Author URI: https://profiles.wordpress.org/webcraftic#content-plugins
+	 * Author: Alex Kovalev <alex.kovalevv@gmail.com>
+	 * Version: 1.0.1	 
 	 */
 
 	define('OPANDA_SLR_PLUGIN_URL', plugins_url(null, __FILE__));
